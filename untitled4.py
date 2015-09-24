@@ -1,6 +1,4 @@
 # coding:utf-8
-import json
-from os import abort
 from flask import Flask, jsonify, request, render_template
 from flask.ext.sqlalchemy import SQLAlchemy
 from marshmallow import Schema, fields
@@ -8,7 +6,7 @@ from marshmallow import Schema, fields
 import feedparser
 from urllib2 import urlopen
 from bs4 import BeautifulSoup
-#from sqlalchemy_utils.types import json
+
 
 
 app = Flask(__name__)
@@ -71,21 +69,21 @@ def articles(article_id=None):
          if request.is_xhr:
             queryset = Article.query.limit(10)
             # never return the whole set! As it would be very slow
-            print "hello"
+            #print "hello"
             result = articles_schema.dump(queryset)
-            print "you"
+            #print "you"
             # jsonify serializes our dict into a proper flask response
             return jsonify({"articles": result.data})
          else:
             return render_template('articles.html')#, articles=queryset)
 
  elif request.method == "POST" and request.is_xhr:
-            print "456"
+            #print "456"
             #val1 = (request.get_json(force=True))
             #val1 = request.args.get('Name', 0, str)
             val1 = str(request.form.get('Name'))
             val2 = str(request.form.get('Desc'))
-            print "123"
+            #print "123"
             #print val1.Name
             print val2
             return jsonify({'name': val1, 'desc': val2})
