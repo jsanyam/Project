@@ -132,35 +132,35 @@ db.create_all()
 #     db.session.add(article_b)
 #     db.session.commit()
 
-print("####### Times  of India ######## \n")
-
-
-
-
-toi_rss=[
-
-'http://timesofindia.feedsportal.com/c/33039/f/533916/index.rss']
-
-for link in toi_rss:
-  d = feedparser.parse(link)
-  print("-----"+d.feed.title+" -------- \n")
-#print(post.description+"\n"+post.enclosures[0].href+" \n")
-#for ele in d.feed:
-# print(ele)
-  for post in d.entries:
-   print(post.title + "\n")
-   html = urlopen(post.link)
-   bsObj = BeautifulSoup(html)
-   story_list=bsObj.find("div",{"class":"Normal"})
-   str=""
-   for story in story_list:
-       str = str + story.get_text()+" "
-
-   print str
-   news_a = Article(title=""+post.title, full_story=str)
-   db.session.add(news_a)
-   #print news_a.title
-   db.session.commit()
+# print("####### Times  of India ######## \n")
+#
+#
+#
+#
+# toi_rss=[
+#
+# 'http://timesofindia.feedsportal.com/c/33039/f/533916/index.rss']
+#
+# for link in toi_rss:
+#   d = feedparser.parse(link)
+#   print("-----"+d.feed.title+" -------- \n")
+# #print(post.description+"\n"+post.enclosures[0].href+" \n")
+# #for ele in d.feed:
+# # print(ele)
+#   for post in d.entries:
+#    print(post.title + "\n")
+#    html = urlopen(post.link)
+#    bsObj = BeautifulSoup(html)
+#    story_list=bsObj.find("div",{"class":"Normal"})
+#    str=""
+#    for story in story_list:
+#        str = str + story.get_text()+" "
+#
+#    print str
+#    news_a = Article(title=""+post.title, full_story=str)
+#    db.session.add(news_a)
+#    #print news_a.title
+#    db.session.commit()
 
 print "wohooo"
 a = Article.query.get(1)
