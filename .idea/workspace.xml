@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="356c34a9-b67d-435e-8123-278ce5a83b18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esoteric.sqlite" afterPath="$PROJECT_DIR$/esoteric.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Templates/articles.html" afterPath="$PROJECT_DIR$/Templates/articles.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled4.py" afterPath="$PROJECT_DIR$/untitled4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled4.iws" />
@@ -19,7 +19,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled4$untitled4.coverage" NAME="untitled4 Coverage Results" MODIFIED="1443005832525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/untitled4$untitled4.coverage" NAME="untitled4 Coverage Results" MODIFIED="1443100481206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="untitled4.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untitled4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08877285" vertical-offset="2363" max-vertical-offset="4420">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.655527" vertical-offset="2091" max-vertical-offset="4420">
+              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding>
                 <element signature="e#15#73#0" expanded="true" />
               </folding>
@@ -48,8 +48,8 @@
       <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Templates/articles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="799">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="153" max-vertical-offset="799">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="748">
+            <state vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="748">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
@@ -136,7 +136,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,6 +184,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,22 +434,28 @@
       <option name="project" value="LOCAL" />
       <updated>1443038361572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1443098745056</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1443098745056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31862745" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31862745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31862745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27836612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28290468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -511,6 +517,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untitled4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="4420">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="748">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/untitled4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1192" max-vertical-offset="4454">
@@ -829,14 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Templates/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="799">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="748">
@@ -845,10 +869,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Templates/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/untitled4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08877285" vertical-offset="2363" max-vertical-offset="4420">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.655527" vertical-offset="2091" max-vertical-offset="4420">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding>
             <element signature="e#15#73#0" expanded="true" />
           </folding>
